@@ -22,6 +22,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wifi_color_light/core/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wifi_color_light/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wifi_color_light/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wifi_color_light/EEPROM}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.cpp.sketch.input.264744097" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
 							</tool>
@@ -30,6 +31,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wifi_color_light/core/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wifi_color_light/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wifi_color_light/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/wifi_color_light/EEPROM}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.c.sketch.input.1772808965" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
 							</tool>

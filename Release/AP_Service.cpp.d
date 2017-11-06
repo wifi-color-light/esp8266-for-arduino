@@ -1,7 +1,4 @@
-wifi_color_light.cpp.o: ..\wifi_color_light.cpp \
- G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/ESP8266WiFi.h \
- G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/include/wl_definitions.h \
- F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/IPAddress.h \
+AP_Service.cpp.o: ..\AP_Service.cpp \
  F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/WString.h \
  F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/pgmspace.h \
  F:\cpp-oxygen\/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/tools/sdk/include/ets_sys.h \
@@ -9,6 +6,9 @@ wifi_color_light.cpp.o: ..\wifi_color_light.cpp \
  F:\cpp-oxygen\/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/tools/sdk/include/eagle_soc.h \
  F:\cpp-oxygen\/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/tools/sdk/include/osapi.h \
  F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/user_config.h \
+ G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/ESP8266WiFi.h \
+ G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/include/wl_definitions.h \
+ F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/IPAddress.h \
  F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/Printable.h \
  G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/ESP8266WiFiType.h \
  F:\cpp-oxygen\/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/tools/sdk/include/queue.h \
@@ -50,13 +50,8 @@ wifi_color_light.cpp.o: ..\wifi_color_light.cpp \
  F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/Server.h \
  G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/WiFiClientSecure.h \
  G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/include/ssl.h \
- ..\wifi_color_light.h ..\AP_Service.h
-
-G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/ESP8266WiFi.h:
-
-G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/include/wl_definitions.h:
-
-F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/IPAddress.h:
+ ..\AP_Service.h ..\config.h \
+ G:\eclipse-workspace\wifi_color_light\EEPROM/EEPROM.h
 
 F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/WString.h:
 
@@ -71,6 +66,12 @@ F:\cpp-oxygen\/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/tools/sdk/i
 F:\cpp-oxygen\/arduinoPlugin/packages/esp8266/hardware/esp8266/2.3.0/tools/sdk/include/osapi.h:
 
 F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/user_config.h:
+
+G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/ESP8266WiFi.h:
+
+G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/include/wl_definitions.h:
+
+F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/IPAddress.h:
 
 F:\cpp-oxygen\arduinoPlugin\packages\esp8266\hardware\esp8266\2.3.0\cores\esp8266/Printable.h:
 
@@ -154,6 +155,8 @@ G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/WiFiClientSecure.h:
 
 G:\eclipse-workspace\wifi_color_light\ESP8266WiFi\src/include/ssl.h:
 
-..\wifi_color_light.h:
-
 ..\AP_Service.h:
+
+..\config.h:
+
+G:\eclipse-workspace\wifi_color_light\EEPROM/EEPROM.h:
