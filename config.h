@@ -13,4 +13,7 @@ typedef struct RouterInfo
 	char ssid[32];
 	char password[32];
 }RouterInfo;
+
+int saveRouterInfo(RouterInfo info);
+int readRouterInfo(RouterInfo *info);
 #endif /* CONFIG_H_ */
