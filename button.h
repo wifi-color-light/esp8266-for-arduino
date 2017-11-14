@@ -18,7 +18,7 @@ namespace Button
 		clear,
 	};
 }
-
+void buttonInitialization();
 void setButtonEvent(Button::Event event);
 Button::Event checkButtonEvent();
 void clearButtonEvent();
